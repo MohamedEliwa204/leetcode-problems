@@ -94,5 +94,51 @@ public class App {
         return result;
     }
 }
+import java.util.Stack;
+
+// public class FreqStack {
+//     Stack<Integer> stack;
+
+//     public FreqStack() {
+//         Stack<Integer> stack = new Stack<>();
+//     }
+
+//     public void push(int x) {
+//         int max = 0;
+//         Stack<Integer> temp = new Stack<>();
+//         while (!stack.empty()) {
+//             if (stack.peek() > max) {
+//                 max = stack.peek();
+//             }
+//             temp.push(stack.pop());
+//             // stack.pop();
+//         }
+//         int[] freq = new int[max + 1];
+
+//         while (!temp.empty()) {
+//             if (temp.peek() == x) {
+//                 freq[temp.peek()]++;
+//             }
+//             // stack.push(temp.peek());
+//             freq[temp.pop()]++;
+
+//         }
+//         int cnt = 1;
+//         for (int i = 0; i <= max; i++) {
+//             if (freq[i] == cnt) {
+//                 stack.push(i);
+//             }
+//             cnt++;
+//         }
+
+//     }
+
+//     public int pop() {
+
+//         int top = stack.pop();
+//         return top;
+//     }
+// }
+
 
 
