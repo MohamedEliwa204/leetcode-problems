@@ -3,7 +3,7 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.Stack;
 
-class sFreqStack {
+class FreqStack {
     Map<Integer, Integer> freqMap = new HashMap<>();
     Map<Integer, Stack<Integer>> groupMap = new HashMap<>();
     int maxFreq = 0;
@@ -33,7 +33,7 @@ class sFreqStack {
         return x;
     }
 }
-public class FreqStack {
+public class FrqeStack {
     public static void main(String[] args) throws Exception {
         Scanner scanner = new Scanner(System.in);
         String[] ops = scanner.nextLine().replaceAll("[\\[\\]\"]", "").split(",");
